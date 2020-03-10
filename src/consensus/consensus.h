@@ -10,7 +10,7 @@
 #include <stdint.h>
 
 /** The maximum allowed size for a serialized block, in bytes (only for buffer size limits) 
-- EAC dev note: temporary set to 1M, increase it after all nodes upgrade from legacy version code
+- ECH dev note: temporary set to 1M, increase it after all nodes upgrade from legacy version code
 */
 static const unsigned int MAX_BLOCK_SERIALIZED_SIZE = 1000000;
 /** The maximum allowed weight for a block, see BIP 141 (network rule) */

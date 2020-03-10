@@ -13,7 +13,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"org.earthcoin.Earthcoin-Qt";
+        return @"org.earthcoincash.EarthcoinCash-Qt";
     } else {
         return [self __bundleIdentifier];
     }

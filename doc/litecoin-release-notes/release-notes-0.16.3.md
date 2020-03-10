@@ -1,25 +1,25 @@
-Earthcoin Core version 0.16.3 is now available from:
+EarthcoinCash Core version 0.16.3 is now available from:
 
-  <https://download.earthcoin.org/earthcoin-0.16.3/>
+  <https://download.earthcoincash.org/earthcoincash-0.16.3/>
 
 This is a new minor version release, with various bugfixes
 as well as updated translations.
 
 Please report bugs using the issue tracker at GitHub:
 
-  <https://github.com/earthcoin-project/earthcoin/issues>
+  <https://github.com/earthcoincash-project/earthcoincash/issues>
 
 To receive security and update notifications, please subscribe to:
 
-  <https://groups.google.com/forum/#!forum/earthcoin-dev>
+  <https://groups.google.com/forum/#!forum/earthcoincash-dev>
 
 How to Upgrade
 ==============
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (which might take a few minutes for older versions), then run the
-installer (on Windows) or just copy over `/Applications/Earthcoin-Qt` (on Mac)
-or `earthcoind`/`earthcoin-qt` (on Linux).
+installer (on Windows) or just copy over `/Applications/EarthcoinCash-Qt` (on Mac)
+or `earthcoincashd`/`earthcoincash-qt` (on Linux).
 
 The first time you run version 0.15.0 or newer, your chainstate database will be converted to a
 new format, which will take anywhere from a few minutes to half an hour,
@@ -40,10 +40,10 @@ wallets that were created with older versions are not affected by this.
 Compatibility
 ==============
 
-Earthcoin Core is extensively tested on multiple operating systems using
+EarthcoinCash Core is extensively tested on multiple operating systems using
 the Linux kernel, macOS 10.8+, and Windows Vista and later. Windows XP is not supported.
 
-Earthcoin Core should also work on most other Unix-like systems but is not
+EarthcoinCash Core should also work on most other Unix-like systems but is not
 frequently tested on them.
 
 Notable changes
@@ -53,7 +53,7 @@ Denial-of-Service vulnerability
 -------------------------------
 
 A denial-of-service vulnerability exploitable by miners has been discovered in
-Earthcoin Core versions 0.14.0 up to 0.16.2. It is recommended to upgrade any of
+EarthcoinCash Core versions 0.14.0 up to 0.16.2. It is recommended to upgrade any of
 the vulnerable versions to 0.16.3 as soon as possible.
 
 0.16.3 change log

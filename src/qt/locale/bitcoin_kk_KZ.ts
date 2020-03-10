@@ -70,7 +70,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
+        <source>EarthcoinCash</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -169,7 +169,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Earthcoin</source>
+        <source>EarthcoinCash</source>
         <translation>Биткоин</translation>
     </message>
     <message>

@@ -118,8 +118,8 @@
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Earthcoin address</source>
-        <translation>Mitte nummos ad inscriptionem Earthcoin</translation>
+        <source>Send coins to a EarthcoinCash address</source>
+        <translation>Mitte nummos ad inscriptionem EarthcoinCash</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -142,8 +142,8 @@
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin</translation>
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -170,12 +170,12 @@
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-        <source>Sign messages with your Earthcoin addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus Earthcoin ut demonstres te eas possidere</translation>
+        <source>Sign messages with your EarthcoinCash addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus EarthcoinCash ut demonstres te eas possidere</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Earthcoin addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Earthcoin</translation>
+        <source>Verify messages to ensure they were signed with specified EarthcoinCash addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus EarthcoinCash</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -297,8 +297,8 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin</translation>
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash</translation>
     </message>
     <message>
         <source>Error</source>
@@ -346,8 +346,8 @@
         <translation>Cassidile</translation>
     </message>
     <message>
-        <source>Automatically open the Earthcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis Earthcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the EarthcoinCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis EarthcoinCash in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -429,8 +429,8 @@
         <translation>Schema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Earthcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Earthcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EarthcoinCash network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete EarthcoinCash postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -679,8 +679,8 @@
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Earthcoin address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem Earthcoin a te possessa esse</translation>
+        <source>Sign the message to prove you own this EarthcoinCash address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem EarthcoinCash a te possessa esse</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -699,8 +699,8 @@
         <translation>&amp;Verifica Nuntium</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Earthcoin address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Earthcoin</translation>
+        <source>Verify the message to ensure it was signed with the specified EarthcoinCash address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione EarthcoinCash</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -752,8 +752,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Earthcoin Core</source>
-        <translation>Earthcoin Nucleus</translation>
+        <source>EarthcoinCash Core</source>
+        <translation>EarthcoinCash Nucleus</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>

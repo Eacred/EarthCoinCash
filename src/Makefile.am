@@ -80,11 +80,11 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += earthcoind
+  bin_PROGRAMS += earthcoincashd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += earthcoin-cli earthcoin-tx
+  bin_PROGRAMS += earthcoincash-cli earthcoincash-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -441,16 +441,16 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-earthcoind_SOURCES = bitcoind.cpp
-earthcoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-earthcoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-earthcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+earthcoincashd_SOURCES = bitcoind.cpp
+earthcoincashd_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+earthcoincashd_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+earthcoincashd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-earthcoind_SOURCES += bitcoind-res.rc
+earthcoincashd_SOURCES += bitcoind-res.rc
 endif
 
-earthcoind_LDADD = \
+earthcoincashd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -464,38 +464,38 @@ earthcoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-earthcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+earthcoincashd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
-earthcoin_cli_SOURCES = bitcoin-cli.cpp
-earthcoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-earthcoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-earthcoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+earthcoincash_cli_SOURCES = bitcoin-cli.cpp
+earthcoincash_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+earthcoincash_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+earthcoincash_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-earthcoin_cli_SOURCES += bitcoin-cli-res.rc
+earthcoincash_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
-earthcoin_cli_LDADD = \
+earthcoincash_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-earthcoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+earthcoincash_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
 # bitcoin-tx binary #
-earthcoin_tx_SOURCES = bitcoin-tx.cpp
-earthcoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-earthcoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-earthcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+earthcoincash_tx_SOURCES = bitcoin-tx.cpp
+earthcoincash_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+earthcoincash_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+earthcoincash_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-earthcoin_tx_SOURCES += bitcoin-tx-res.rc
+earthcoincash_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
-earthcoin_tx_LDADD = \
+earthcoincash_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -503,7 +503,7 @@ earthcoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-earthcoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+earthcoincash_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

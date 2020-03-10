@@ -48,7 +48,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-# error "Earthcoin cannot be compiled without assertions."
+# error "EarthcoinCash cannot be compiled without assertions."
 #endif
 
 #define MICRO 0.000001
@@ -251,7 +251,7 @@ std::atomic_bool g_is_mempool_loaded{false};
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const std::string strMessageMagic = "Earthcoin Signed Message:\n";
+const std::string strMessageMagic = "EarthcoinCash Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -945,7 +945,7 @@ static bool AcceptToMemoryPoolWorker(const CChainParams& chainparams, CTxMemPool
         // Remove conflicting transactions from the mempool
         for (CTxMemPool::txiter it : allConflicting)
         {
-            LogPrint(BCLog::MEMPOOL, "replacing tx %s with %s for %s EAC additional fees, %d delta bytes\n",
+            LogPrint(BCLog::MEMPOOL, "replacing tx %s with %s for %s ECH additional fees, %d delta bytes\n",
                     it->GetTx().GetHash().ToString(),
                     hash.ToString(),
                     FormatMoney(nModifiedFees - nConflictingFees),
@@ -1094,7 +1094,7 @@ bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos, const Consensus:
         return error("%s: Deserialize or I/O error - %s at %s", __func__, e.what(), pos.ToString());
     }
 
-    // A different rule for the genesis block. Because the original EAC genesis wan not mined correctly.
+    // A different rule for the genesis block. Because the original ECH genesis wan not mined correctly.
     if (block.hashPrevBlock == uint256S("0x00"))
         return true;
     
@@ -1504,7 +1504,7 @@ bool CheckInputs(const CTransaction& tx, CValidationState &state, const CCoinsVi
                     // as to the correct behavior - we may want to continue
                     // peering with non-upgraded nodes even after soft-fork
                     // super-majority signaling has occurred.
-		    // EAC-DEV note: that softfork is not the case of EAC network
+		    // ECH-DEV note: that softfork is not the case of ECH network
                     // return state.DoS(100,false, REJECT_INVALID, strprintf("mandatory-script-verify-flag-failed (%s)", ScriptErrorString(check.GetScriptError())));
                 }
             }
@@ -1745,7 +1745,7 @@ static bool WriteUndoDataForBlock(const CBlockUndo& blockundo, CValidationState&
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("earthcoin-scriptch");
+    RenameThread("earthcoincash-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2112,7 +2112,7 @@ bool CChainState::ConnectBlock(const CBlock& block, CValidationState& state, CBl
                                block.vtx[0]->GetValueOut(), blockReward),
                                REJECT_INVALID, "bad-cb-amount");
     
-    // EAC dev note: some valid blocks fails this test so temporary bypass it untill resolve the reason
+    // ECH dev note: some valid blocks fails this test so temporary bypass it untill resolve the reason
     // only log a warnings
     if (!control.Wait())
 	LogPrintf("%s: CheckQueue failed", __func__);    

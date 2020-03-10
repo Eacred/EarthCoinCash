@@ -51,7 +51,7 @@ static const bool DEFAULT_WHITELISTRELAY = true;
 /** Default for -whitelistforcerelay. */
 static const bool DEFAULT_WHITELISTFORCERELAY = true;
 /** Default for -minrelaytxfee, minimum relay fee for transactions 
-- EAC dev note: for backward compatibility no tx-fee required as default,
+- ECH dev note: for backward compatibility no tx-fee required as default,
   schedule to increase after all nodes upgrade from legacy
 */
 static const unsigned int DEFAULT_MIN_RELAY_TX_FEE = 0;

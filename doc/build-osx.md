@@ -38,17 +38,17 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see the section *Disable-Wallet mode* below).
 
-Build Earthcoin Core
+Build EarthcoinCash Core
 ------------------------
 
-1. Clone the Earthcoin Core source code and cd into `earthcoin`
+1. Clone the EarthcoinCash Core source code and cd into `earthcoincash`
 
-        git clone https://github.com/Sandokaaan/EarthCoin2019.git
+        git clone https://github.com/EarthcoinCash/EarthcoinCash.git
         cd EarthCoin2019
 
-2.  Build Earthcoin Core:
+2.  Build EarthcoinCash Core:
 
-    Configure and build the headless Earthcoin Core binaries as well as the GUI (if Qt is found).
+    Configure and build the headless EarthcoinCash Core binaries as well as the GUI (if Qt is found).
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -70,33 +70,33 @@ Build Earthcoin Core
 
     or
 
-        cd ~/earthcoin/src
-        cp earthcoind /usr/local/bin/
-        cp earthcoin-cli /usr/local/bin/
+        cd ~/earthcoincash/src
+        cp earthcoincashd /usr/local/bin/
+        cp earthcoincash-cli /usr/local/bin/
 
 Running
 -------
 
-Earthcoin Core is now available at `./src/earthcoind`
+EarthcoinCash Core is now available at `./src/earthcoincashd`
 
 Before running, it's recommended that you create an RPC configuration file.
 
-    echo -e "rpcuser=earthcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Earthcoin/earthcoin.conf"
+    echo -e "rpcuser=earthcoincashrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/EarthcoinCash/earthcoincash.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Earthcoin/earthcoin.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/EarthcoinCash/earthcoincash.conf"
 
-The first time you run earthcoind, it will start downloading the blockchain. This process could take several hours.
+The first time you run earthcoincashd, it will start downloading the blockchain. This process could take several hours.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Earthcoin/debug.log
+    tail -f $HOME/Library/Application\ Support/EarthcoinCash/debug.log
 
 Other commands:
 -------
 
-    ./src/earthcoind -daemon # Starts the earthcoin daemon.
-    ./src/earthcoin-cli --help # Outputs a list of command-line options.
-    ./src/earthcoin-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/earthcoincashd -daemon # Starts the earthcoincash daemon.
+    ./src/earthcoincash-cli --help # Outputs a list of command-line options.
+    ./src/earthcoincash-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

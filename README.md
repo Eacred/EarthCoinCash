@@ -1,22 +1,22 @@
-Earthcoin Core integration/staging tree
+EarthcoinCash Core integration/staging tree
 =====================================
 
-What is Earthcoin?
+What is EarthcoinCash?
 ----------------
 
-Earthcoin is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Earthcoin uses peer-to-peer technology to operate
+EarthcoinCash is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. EarthcoinCash uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Earthcoin Core is the name of open source
+out collectively by the network. EarthcoinCash Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Earthcoin Core software, see [http://deveac.com](http://deveac.com).
+the EarthcoinCash Core software, see [http://deveac.com](http://deveac.com).
 
 License
 -------
 
-Earthcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+EarthcoinCash Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
@@ -24,7 +24,7 @@ Development Process
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/Sandokaaan/EarthCoin2019/tags) are created
-regularly to indicate new official, stable release versions of Earthcoin Core.
+regularly to indicate new official, stable release versions of EarthcoinCash Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -32,7 +32,7 @@ The developer [mailing list](https://bitcointalk.org/index.php?topic=2161853)
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer IRC can be found on Freenode at #earthcoin-dev.
+Developer IRC can be found on Freenode at #earthcoincash-dev.
 
 Testing
 -------
@@ -66,7 +66,7 @@ Translations
 ------------
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Earthcoin periodically.
+Translations are converted to EarthcoinCash periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
 [translation process](doc/translation_process.md) for details on how this works.

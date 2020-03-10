@@ -66,11 +66,11 @@
         <translation>收款地址</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your EarthcoinCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>这些是你要付款过去的地球币现金地址。在付钱之前，务必要检查金额和收款地址是否正确。</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your EarthcoinCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>这些是你用来收款的地球币现金地址。建议在每次交易时，都使用一个新的收款地址。</translation>
     </message>
     <message>
@@ -188,7 +188,7 @@
         <translation>钱包已加密</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoincashs from being stolen by malware infecting your computer.</source>
         <translation>%1 现在要关闭，以完成加密过程。请注意，加密钱包不能完全防止入侵你的电脑的恶意程序偷取钱币。</translation>
     </message>
     <message>
@@ -346,7 +346,7 @@
         <translation>正在为数据块重建索引...</translation>
     </message>
     <message>
-        <source>Send coins to a Earthcoin address</source>
+        <source>Send coins to a EarthcoinCash address</source>
         <translation>向一个地球币现金地址发送地球币现金</translation>
     </message>
     <message>
@@ -370,7 +370,7 @@
         <translation>验证消息(&amp;V)...</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
+        <source>EarthcoinCash</source>
         <translation>地球币现金</translation>
     </message>
     <message>
@@ -398,11 +398,11 @@
         <translation>对钱包中的私钥加密</translation>
     </message>
     <message>
-        <source>Sign messages with your Earthcoin addresses to prove you own them</source>
+        <source>Sign messages with your EarthcoinCash addresses to prove you own them</source>
         <translation>用地球币现金地址关联的私钥为消息签名，以证明您拥有这个地球币现金地址</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Earthcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified EarthcoinCash addresses</source>
         <translation>校验消息，确保该消息是由指定的地球币现金地址所有者签名的</translation>
     </message>
     <message>
@@ -422,8 +422,8 @@
         <translation>分页工具栏</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and earthcoin: URIs)</source>
-        <translation>请求支付 (生成二维码和 earthcoin: URI)</translation>
+        <source>Request payments (generates QR codes and earthcoincash: URIs)</source>
+        <translation>请求支付 (生成二维码和 earthcoincash: URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -434,8 +434,8 @@
         <translation>显示用过的接收地址和标签的列表</translation>
     </message>
     <message>
-        <source>Open a earthcoin: URI or payment request</source>
-        <translation>打开一个 earthcoin: URI 或支付请求</translation>
+        <source>Open a earthcoincash: URI or payment request</source>
+        <translation>打开一个 earthcoincash: URI 或支付请求</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -478,7 +478,7 @@
         <translation>已是最新</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Earthcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible EarthcoinCash command-line options</source>
         <translation>显示 %1 帮助信息，获取可用命令行选项列表</translation>
     </message>
     <message>
@@ -548,7 +548,7 @@
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Earthcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. EarthcoinCash can no longer continue safely and will quit.</source>
         <translation>发生严重错误。客户端无法安全地继续运行，即将退出。</translation>
     </message>
 </context>
@@ -738,7 +738,7 @@
         <translation>编辑付款地址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Earthcoin address.</source>
+        <source>The entered address "%1" is not a valid EarthcoinCash address.</source>
         <translation>输入的地址 %1 并不是有效的地球币现金地址。</translation>
     </message>
     <message>
@@ -823,7 +823,7 @@
         <translation>使用自定义的数据目录：</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
+        <source>EarthcoinCash</source>
         <translation>地球币现金</translation>
     </message>
     <message>
@@ -835,7 +835,7 @@
         <translation>会在此目录中存储约 %1 GB 的数据。</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Earthcoin block chain.</source>
+        <source>%1 will download and store a copy of the EarthcoinCash block chain.</source>
         <translation>%1 将会下载并存储地球币现金区块链。</translation>
     </message>
     <message>
@@ -858,11 +858,11 @@
         <translation>表单</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the earthcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the earthcoincash network, as detailed below.</source>
         <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与地球币现金网络完全同步后更正。详情如下</translation>
     </message>
     <message>
-        <source>Attempting to spend earthcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend earthcoincashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>尝试使用受未可见交易影响的余额将不被网络接受。</translation>
     </message>
     <message>
@@ -1032,7 +1032,7 @@
         <translation>使用未经确认的零钱(&amp;S)</translation>
     </message>
     <message>
-        <source>Automatically open the Earthcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the EarthcoinCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>自动在路由器中打开地球币现金端口。只有当您的路由器开启了 UPnP 选项时此功能才有效。</translation>
     </message>
     <message>
@@ -1048,7 +1048,7 @@
         <translation>允许流入连接(&amp;G)</translation>
     </message>
     <message>
-        <source>Connect to the Earthcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the EarthcoinCash network through a SOCKS5 proxy.</source>
         <translation>通过 SOCKS5 代理连接地球币现金网络。</translation>
     </message>
     <message>
@@ -1084,7 +1084,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Earthcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the EarthcoinCash network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>在 Tor 匿名网络下通过不同的 SOCKS5 代理连接地球币现金网络</translation>
     </message>
     <message>
@@ -1191,7 +1191,7 @@
         <translation>表单</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Earthcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EarthcoinCash network after a connection is established, but this process has not completed yet.</source>
         <translation>现在显示的消息可能是过期的。在连接上地球币现金网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
     </message>
     <message>
@@ -1266,8 +1266,8 @@
         <translation>要求付款时发生错误</translation>
     </message>
     <message>
-        <source>Cannot start earthcoin: click-to-pay handler</source>
-        <translation>无法启动 earthcoin 协议的“
+        <source>Cannot start earthcoincash: click-to-pay handler</source>
+        <translation>无法启动 earthcoincash 协议的“
 一键支付”处理器</translation>
     </message>
     <message>
@@ -1283,7 +1283,7 @@
         <translation>无效的付款地址 %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Earthcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid EarthcoinCash address or malformed URI parameters.</source>
         <translation>无法解析 URI 地址！可能是因为地球币现金地址无效，或是 URI 参数格式错误。</translation>
     </message>
     <message>
@@ -1381,7 +1381,7 @@
         <translation>金额</translation>
     </message>
     <message>
-        <source>Enter a Earthcoin address (e.g. %1)</source>
+        <source>Enter a EarthcoinCash address (e.g. %1)</source>
         <translation>请输入一个地球币现金地址 (例如 %1)</translation>
     </message>
     <message>
@@ -1773,7 +1773,7 @@
         <translation>消息(&amp;M)：</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Earthcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the EarthcoinCash network.</source>
         <translation>可在付款请求上备注一条信息，在打开付款请求时可以看到。注意：该消息不是通过地球币现金网络传送。</translation>
     </message>
     <message>
@@ -2014,7 +2014,7 @@
         <translation>隐藏</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for earthcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for earthcoincash transactions than the network can process.</source>
         <translation>交易量小时允许只支付最小交易费。但是请注意，当交易量大到超出网络可处理时您的交易可能永远无法确认。</translation>
     </message>
     <message>
@@ -2178,7 +2178,7 @@
         <translation>只支付必要费用 %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Earthcoin address</source>
+        <source>Warning: Invalid EarthcoinCash address</source>
         <translation>警告: 地球币现金地址无效</translation>
     </message>
     <message>
@@ -2221,7 +2221,7 @@
         <translation>这是笔正常的支付。</translation>
     </message>
     <message>
-        <source>The Earthcoin address to send the payment to</source>
+        <source>The EarthcoinCash address to send the payment to</source>
         <translation>付款目的地址</translation>
     </message>
     <message>
@@ -2241,7 +2241,7 @@
         <translation>移除此项</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less earthcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less earthcoincashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>交易费将从发送总额中扣除。接收人将收到比您在金额框中输入的更少的地球币现金。如果选中了多个收件人，交易费平分。</translation>
     </message>
     <message>
@@ -2269,8 +2269,8 @@
         <translation>请为此地址输入一个标签以将它加入用过的地址列表</translation>
     </message>
     <message>
-        <source>A message that was attached to the earthcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Earthcoin network.</source>
-        <translation>earthcoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过地球币现金网络传输。</translation>
+        <source>A message that was attached to the earthcoincash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the EarthcoinCash network.</source>
+        <translation>earthcoincash:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过地球币现金网络传输。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2314,11 +2314,11 @@
         <translation>签名消息(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive earthcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive earthcoincashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的地球币现金。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
-        <source>The Earthcoin address to sign the message with</source>
+        <source>The EarthcoinCash address to sign the message with</source>
         <translation>用来对消息签名的地址 </translation>
     </message>
     <message>
@@ -2350,7 +2350,7 @@
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Earthcoin address</source>
+        <source>Sign the message to prove you own this EarthcoinCash address</source>
         <translation>签名消息，证明这个地址属于您。</translation>
     </message>
     <message>
@@ -2374,11 +2374,11 @@
         <translation>请在下面输入接收者地址、消息（确保换行符、空格符、制表符等完全相同）和签名以验证消息。请仔细核对签名信息，以提防中间人攻击。请注意，这只是证明接收方签名的地址，它不能证明任何交易！</translation>
     </message>
     <message>
-        <source>The Earthcoin address the message was signed with</source>
+        <source>The EarthcoinCash address the message was signed with</source>
         <translation>消息使用的签名地址</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Earthcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified EarthcoinCash address</source>
         <translation>验证消息，确保消息是由指定的地球币现金地址签名过的。</translation>
     </message>
     <message>
@@ -3007,8 +3007,8 @@
         <translation>无法启动HTTP服务，查看日志获取更多信息</translation>
     </message>
     <message>
-        <source>Earthcoin Core</source>
-        <translation>Earthcoin Core</translation>
+        <source>EarthcoinCash Core</source>
+        <translation>EarthcoinCash Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

@@ -66,12 +66,12 @@
         <translation>A receber endereços</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Earthcoin para enviar pagamentos. Verifique sempre o valor e o endereço de envio antes de enviar moedas.</translation>
+        <source>These are your EarthcoinCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços EarthcoinCash para enviar pagamentos. Verifique sempre o valor e o endereço de envio antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços Earthcoin para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
+        <source>These are your EarthcoinCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços EarthcoinCash para receber pagamentos. É recomendado que utilize um endereço novo para cada transacção.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Carteira encriptada</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus earthcoins de serem roubados por programas maliciosos que infectem o seu computador.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoincashs from being stolen by malware infecting your computer.</source>
+        <translation>%1 irá agora ser fechado para terminar o processo de encriptação. Recorde que a encriptação da sua carteira não protegerá totalmente os seus earthcoincashs de serem roubados por programas maliciosos que infectem o seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -358,8 +358,8 @@
         <translation>Proxy está &lt;b&gt;ativado&lt;/b&gt;: %1</translation>
     </message>
     <message>
-        <source>Send coins to a Earthcoin address</source>
-        <translation>Enviar moedas para um endereço Earthcoin</translation>
+        <source>Send coins to a EarthcoinCash address</source>
+        <translation>Enviar moedas para um endereço EarthcoinCash</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -382,8 +382,8 @@
         <translation>&amp;Verificar mensagem...</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin</translation>
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -410,12 +410,12 @@
         <translation>Encriptar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <source>Sign messages with your Earthcoin addresses to prove you own them</source>
-        <translation>Assine as mensagens com os seus endereços Earthcoin para provar que é o proprietário dos mesmos</translation>
+        <source>Sign messages with your EarthcoinCash addresses to prove you own them</source>
+        <translation>Assine as mensagens com os seus endereços EarthcoinCash para provar que é o proprietário dos mesmos</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Earthcoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Earthcoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified EarthcoinCash addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço EarthcoinCash especificado</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -434,8 +434,8 @@
         <translation>Barra de ferramentas dos separadores</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and earthcoin: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e earthcoin: URIs)</translation>
+        <source>Request payments (generates QR codes and earthcoincash: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e earthcoincash: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -446,16 +446,16 @@
         <translation>Mostrar a lista de rótulos e endereços de receção usados</translation>
     </message>
     <message>
-        <source>Open a earthcoin: URI or payment request</source>
-        <translation>Abrir URI earthcoin: ou pedido de pagamento</translation>
+        <source>Open a earthcoincash: URI or payment request</source>
+        <translation>Abrir URI earthcoincash: ou pedido de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opções da linha de &amp;comando</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Earthcoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Earthcoin</numerusform><numerusform>%n ligações ativas à rede Earthcoin</numerusform></translation>
+        <source>%n active connection(s) to EarthcoinCash network</source>
+        <translation><numerusform>%n ligação ativa à rede EarthcoinCash</numerusform><numerusform>%n ligações ativas à rede EarthcoinCash</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -498,7 +498,7 @@
         <translation>Atualizado</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Earthcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible EarthcoinCash command-line options</source>
         <translation>Mostrar a mensagem de ajuda %1 para obter uma lista com possíveis opções a usar na linha de comandos.</translation>
     </message>
     <message>
@@ -574,8 +574,8 @@
         <translation>A carteira está &lt;b&gt;encriptada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Earthcoin can no longer continue safely and will quit.</source>
-        <translation>Ocorreu um erro fatal. O Earthcoin não pode continuar com segurança e irá fechar.</translation>
+        <source>A fatal error occurred. EarthcoinCash can no longer continue safely and will quit.</source>
+        <translation>Ocorreu um erro fatal. O EarthcoinCash não pode continuar com segurança e irá fechar.</translation>
     </message>
 </context>
 <context>
@@ -764,8 +764,8 @@
         <translation>Editar o endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Earthcoin address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço earthcoin válido.</translation>
+        <source>The entered address "%1" is not a valid EarthcoinCash address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço earthcoincash válido.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -849,8 +849,8 @@
         <translation>Utilizar uma pasta de dados personalizada:</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin</translation>
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -861,8 +861,8 @@
         <translation>Aproximadamente %1 GB de dados irão ser guardados nesta directoria. </translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Earthcoin block chain.</source>
-        <translation>%1 irá descarregar e armazenar uma cópia da cadeia de blocos da Earthcoin.</translation>
+        <source>%1 will download and store a copy of the EarthcoinCash block chain.</source>
+        <translation>%1 irá descarregar e armazenar uma cópia da cadeia de blocos da EarthcoinCash.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -892,12 +892,12 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the earthcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the earthcoincash network, as detailed below.</source>
         <translation>Transações recentes podem não ser visíveis por agora, portanto o saldo da sua carteira pode estar incorreto. Esta informação será corrigida quando a sua carteira acabar de sincronizar com a rede, como está explicado em baixo.</translation>
     </message>
     <message>
-        <source>Attempting to spend earthcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Tentar enviar earthcoins que estão afetadas por transações ainda não exibidas não será aceite pela rede.</translation>
+        <source>Attempting to spend earthcoincashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Tentar enviar earthcoincashs que estão afetadas por transações ainda não exibidas não será aceite pela rede.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1071,8 +1071,8 @@
         <translation>&amp;Gastar troco não confirmado</translation>
     </message>
     <message>
-        <source>Automatically open the Earthcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente earthcoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <source>Automatically open the EarthcoinCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir a porta do cliente earthcoincash automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1087,8 +1087,8 @@
         <translation>Permitir ligações de "a receber"</translation>
     </message>
     <message>
-        <source>Connect to the Earthcoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede da Earthcoin através dum proxy SOCLS5.</translation>
+        <source>Connect to the EarthcoinCash network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede da EarthcoinCash através dum proxy SOCLS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1123,8 +1123,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Earthcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Ligar à rede Earthcoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
+        <source>Connect to the EarthcoinCash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Ligar à rede EarthcoinCash através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1230,8 +1230,8 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Earthcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede Earthcoin depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EarthcoinCash network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada poderá estar desatualizada. A sua carteira sincroniza automaticamente com a rede EarthcoinCash depois de estabelecer ligação, mas este processo ainda não está completo.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1305,16 +1305,16 @@
         <translation>Erro do pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start earthcoin: click-to-pay handler</source>
-        <translation>Impossível iniciar o controlador de earthcoin: click-to-pay</translation>
+        <source>Cannot start earthcoincash: click-to-pay handler</source>
+        <translation>Impossível iniciar o controlador de earthcoincash: click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
         <translation>Manuseamento de URI</translation>
     </message>
     <message>
-        <source>'earthcoin://' is not a valid URI. Use 'earthcoin:' instead.</source>
-        <translation>'earthcoin://' não é um URI válido. Utilize 'earthcoin:'.</translation>
+        <source>'earthcoincash://' is not a valid URI. Use 'earthcoincash:' instead.</source>
+        <translation>'earthcoincash://' não é um URI válido. Utilize 'earthcoincash:'.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1325,8 +1325,8 @@
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Earthcoin address or malformed URI parameters.</source>
-        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço Earthcoin inválido ou por parâmetros URI malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid EarthcoinCash address or malformed URI parameters.</source>
+        <translation>URI não foi lido correctamente! Isto pode ser causado por um endereço EarthcoinCash inválido ou por parâmetros URI malformados.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1427,8 +1427,8 @@
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a Earthcoin address (e.g. %1)</source>
-        <translation>Entre um endereço Earthcoin (ex. %1)</translation>
+        <source>Enter a EarthcoinCash address (e.g. %1)</source>
+        <translation>Entre um endereço EarthcoinCash (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1871,8 +1871,8 @@
         <translation>&amp;Mensagem:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Earthcoin network.</source>
-        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede Earthcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the EarthcoinCash network.</source>
+        <translation>Uma mensagem opcional para anexar ao pedido de pagamento, que será exibida quando o pedido for aberto. Nota: A mensagem não será enviada com o pagamento através da rede EarthcoinCash.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2112,7 +2112,7 @@
         <translation>Esconder</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for earthcoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for earthcoincash transactions than the network can process.</source>
         <translation>Pode pagar somente a taxa minima desde que haja um volume de transações inferior ao espaço nos blocos. No entanto tenha em atenção que esta opção poderá acabar em uma transação nunca confirmada assim que os pedidos de transações excedam a capacidade de processamento da rede.</translation>
     </message>
     <message>
@@ -2273,8 +2273,8 @@
         <translation>Pague apenas a taxa obrigatória de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Earthcoin address</source>
-        <translation>Aviso: endereço Earthcoin inválido</translation>
+        <source>Warning: Invalid EarthcoinCash address</source>
+        <translation>Aviso: endereço EarthcoinCash inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2316,8 +2316,8 @@
         <translation>Este é um pagamento normal.</translation>
     </message>
     <message>
-        <source>The Earthcoin address to send the payment to</source>
-        <translation>O endereço Earthcoin para enviar o pagamento</translation>
+        <source>The EarthcoinCash address to send the payment to</source>
+        <translation>O endereço EarthcoinCash para enviar o pagamento</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2336,8 +2336,8 @@
         <translation>Remover esta entrada</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less earthcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>A taxa será deduzida ao valor que está a ser enviado. O destinatário irá receber menos earthcoins do que as que inseridas no campo do valor. Se estiverem selecionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less earthcoincashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>A taxa será deduzida ao valor que está a ser enviado. O destinatário irá receber menos earthcoincashs do que as que inseridas no campo do valor. Se estiverem selecionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2364,8 +2364,8 @@
         <translation>Introduza um rótulo para este endereço para o adicionar à sua lista de endereços usados</translation>
     </message>
     <message>
-        <source>A message that was attached to the earthcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Earthcoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI earthcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Earthcoin.</translation>
+        <source>A message that was attached to the earthcoincash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the EarthcoinCash network.</source>
+        <translation>Uma mensagem que estava anexada ao URI earthcoincash: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede EarthcoinCash.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2409,12 +2409,12 @@
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive earthcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive earthcoincashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo de modo a assinar a sua identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <source>The Earthcoin address to sign the message with</source>
-        <translation>O endereço Earthcoin para designar a mensagem</translation>
+        <source>The EarthcoinCash address to sign the message with</source>
+        <translation>O endereço EarthcoinCash para designar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2445,8 +2445,8 @@
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Earthcoin address</source>
-        <translation>Assine uma mensagem para provar que é dono deste endereço Earthcoin</translation>
+        <source>Sign the message to prove you own this EarthcoinCash address</source>
+        <translation>Assine uma mensagem para provar que é dono deste endereço EarthcoinCash</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2469,12 +2469,12 @@
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia quebras de linha, espaços, tabulações, etc. exactamente) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The Earthcoin address the message was signed with</source>
-        <translation>O endereço Earthcoin com que a mensagem foi designada</translation>
+        <source>The EarthcoinCash address the message was signed with</source>
+        <translation>O endereço EarthcoinCash com que a mensagem foi designada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Earthcoin address</source>
-        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço Earthcoin especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified EarthcoinCash address</source>
+        <translation>Verifique a mensagem para assegurar que foi assinada com o endereço EarthcoinCash especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3110,8 +3110,8 @@
         <translation>Não é possível iniciar o servidor HTTP. Verifique o debug.log para detalhes.</translation>
     </message>
     <message>
-        <source>Earthcoin Core</source>
-        <translation>Earthcoin Core</translation>
+        <source>EarthcoinCash Core</source>
+        <translation>EarthcoinCash Core</translation>
     </message>
     <message>
         <source>The %s developers</source>

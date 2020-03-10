@@ -135,7 +135,7 @@
         <translation>仅支付全额的%1</translation>
     </message>
     <message>
-        <source>Warning: Invalid Earthcoin address</source>
+        <source>Warning: Invalid EarthcoinCash address</source>
         <translation>警告：地球币现金地址无效</translation>
     </message>
     </context>

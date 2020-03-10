@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Earthcoin"
-            VALUE "FileDescription",    "earthcoind (Earthcoin node with a JSON-RPC server)"
+            VALUE "CompanyName",        "EarthcoinCash"
+            VALUE "FileDescription",    "earthcoincashd (EarthcoinCash node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "earthcoind"
+            VALUE "InternalName",       "earthcoincashd"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "earthcoind.exe"
-            VALUE "ProductName",        "earthcoind"
+            VALUE "OriginalFilename",   "earthcoincashd.exe"
+            VALUE "ProductName",        "earthcoincashd"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

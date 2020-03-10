@@ -1,9 +1,9 @@
-Earthcoin Core
+EarthcoinCash Core
 =============
 
 Intro
 -----
-Earthcoin is a free open source peer-to-peer electronic cash system that is
+EarthcoinCash is a free open source peer-to-peer electronic cash system that is
 completely decentralized, without the need for a central server or trusted
 parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
@@ -11,13 +11,13 @@ with each other, with the help of a P2P network to check for double-spending.
 
 Setup
 -----
-Unpack the files into a directory and run earthcoin-qt.exe.
+Unpack the files into a directory and run earthcoincash-qt.exe.
 
-Earthcoin Core is the original Earthcoin client and it builds the backbone of the network.
-However, it downloads and stores the entire history of Earthcoin transactions;
+EarthcoinCash Core is the original EarthcoinCash client and it builds the backbone of the network.
+However, it downloads and stores the entire history of EarthcoinCash transactions;
 depending on the speed of your computer and network connection, the synchronization
 process can take anywhere from a few hours to a day or more.
 
-See the earthcoin wiki at:
-  https://earthcoin.info/
+See the earthcoincash wiki at:
+  https://earthcoincash.info/
 for more help and information.

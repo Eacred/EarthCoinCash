@@ -76,11 +76,11 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 525600;
-        consensus.BIP16Height = 0; // October 1, 2012 it was before EAC genesis // int64 nBIP16SwitchTime = 1349049600
-        consensus.BIP34Height = 710000;      // EAC dev note: after this height only block version 2 are allowed
+        consensus.BIP16Height = 0; // October 1, 2012 it was before ECH genesis // int64 nBIP16SwitchTime = 1349049600
+        consensus.BIP34Height = 710000;      // ECH dev note: after this height only block version 2 are allowed
         consensus.BIP34Hash = uint256S("fa09d204a83a768ed5a7c8d441fa62f2043abf420cff1226c7b4329aeb9d51cf");
-        consensus.BIP65Height = 99999999; // EAC dev note: disabled for now     // OP_CHECKLOCKTIMEVERIFY
-        consensus.BIP66Height = 99999999; // EAC dev note: disabled for now
+        consensus.BIP65Height = 99999999; // ECH dev note: disabled for now     // OP_CHECKLOCKTIMEVERIFY
+        consensus.BIP66Height = 99999999; // ECH dev note: disabled for now
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 30 * 60;  // 30 minutes
         consensus.nPowTargetSpacing = 60;        // 60 seconds
@@ -113,11 +113,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xc0;
-        pchMessageStart[1] = 0xdb;
-        pchMessageStart[2] = 0xf1;
-        pchMessageStart[3] = 0xfd;
-        nDefaultPort = 35677;
+        pchMessageStart[0] = 0xc1;
+        pchMessageStart[1] = 0xdc;
+        pchMessageStart[2] = 0xf2;
+        pchMessageStart[3] = 0xfe;
+        nDefaultPort = 35566;
         nPruneAfterHeight = 100000;
 
         genesis = CreateGenesisBlock(1386746168, 12468024, 0x1e0ffff0, 1, 0 * COIN);
@@ -130,10 +130,10 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-//        vSeeds.emplace_back("seed-a.earthcoin.loshan.co.uk");
+//        vSeeds.emplace_back("seed-a.earthcoincash.loshan.co.uk");
 //        vSeeds.emplace_back("dnsseed.thrasher.io");
-//        vSeeds.emplace_back("dnsseed.earthcointools.com");
-//        vSeeds.emplace_back("dnsseed.earthcoinpool.org");
+//        vSeeds.emplace_back("dnsseed.earthcoincashtools.com");
+//        vSeeds.emplace_back("dnsseed.earthcoincashpool.org");
 //        vSeeds.emplace_back("dnsseed.koin-project.com");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,93);
@@ -143,7 +143,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
 
-        bech32_hrp = "eac";
+        bech32_hrp = "ech";
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
@@ -273,7 +273,7 @@ public:
         pchMessageStart[1] = 0xc2;
         pchMessageStart[2] = 0xb6;
         pchMessageStart[3] = 0xf1;
-        nDefaultPort = 25677;
+        nDefaultPort = 25566;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1386746169, 12468025, 0x1e0ffff0, 1, 0 * COIN);
@@ -284,8 +284,8 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        //vSeeds.emplace_back("testnet-seed.earthcointools.com");
-        //vSeeds.emplace_back("seed-b.earthcoin.loshan.co.uk");
+        //vSeeds.emplace_back("testnet-seed.earthcoincashtools.com");
+        //vSeeds.emplace_back("seed-b.earthcoincash.loshan.co.uk");
         //vSeeds.emplace_back("dnsseed-testnet.thrasher.io");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
@@ -295,7 +295,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        bech32_hrp = "teac";
+        bech32_hrp = "tech";
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
@@ -361,7 +361,7 @@ public:
         pchMessageStart[1] = 0xa4;
         pchMessageStart[2] = 0x61;
         pchMessageStart[3] = 0xb0;
-        nDefaultPort = 45677;
+        nDefaultPort = 45566;
         nPruneAfterHeight = 1000;
 
         genesis = CreateGenesisBlock(1386746169, 12468025, 0x1e0ffff0, 1, 0 * COIN);
@@ -395,7 +395,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        bech32_hrp = "reac";
+        bech32_hrp = "rech";
 
         /* enable fallback fee on regtest */
         m_fallback_fee_enabled = true;

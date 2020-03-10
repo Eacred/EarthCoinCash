@@ -62,12 +62,12 @@
         <translation>Alınan Adresler</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödeme göndermek için gereken Earthcoin adreslerinizdir. Para göndermeden önce her zaman miktarı ve alıcı adresi kontrol edin.</translation>
+        <source>These are your EarthcoinCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödeme göndermek için gereken EarthcoinCash adreslerinizdir. Para göndermeden önce her zaman miktarı ve alıcı adresi kontrol edin.</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödeme almak için kullanılacak Earthcoin adreslerinizdir. Her işlem için yeni bir ödeme alma adresi kullanılması tavsiye edilir.</translation>
+        <source>These are your EarthcoinCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödeme almak için kullanılacak EarthcoinCash adreslerinizdir. Her işlem için yeni bir ödeme alma adresi kullanılması tavsiye edilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -180,8 +180,8 @@
         <translation>Cüzdan Şifrelendi</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 Şifreleme işlemini bitirmek için kapatılacak. Şunu unutmayın ki şampiyon galatasaray ve şifrelemek, earthcoinlerinizin bilgisayarınıza bulaşan malware yazılımları tarafından çalınmasını tamamen engelleyemez.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoincashs from being stolen by malware infecting your computer.</source>
+        <translation>%1 Şifreleme işlemini bitirmek için kapatılacak. Şunu unutmayın ki şampiyon galatasaray ve şifrelemek, earthcoincashlerinizin bilgisayarınıza bulaşan malware yazılımları tarafından çalınmasını tamamen engelleyemez.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -286,8 +286,8 @@
         <translation>Bloklar disk üzerinde yeniden indeksleniyor...</translation>
     </message>
     <message>
-        <source>Send coins to a Earthcoin address</source>
-        <translation>Earthcoin adresine madeni para gönderin</translation>
+        <source>Send coins to a EarthcoinCash address</source>
+        <translation>EarthcoinCash adresine madeni para gönderin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -302,8 +302,8 @@
         <translation>Onay mesajı...</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash
 </translation>
     </message>
     <message>
@@ -458,8 +458,8 @@
         <translation>Gönderim adresini düzenleyin</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Earthcoin address.</source>
-        <translation>Girilen adres "%1" Earthcoin adresiyle eşleşmiyor.</translation>
+        <source>The entered address "%1" is not a valid EarthcoinCash address.</source>
+        <translation>Girilen adres "%1" EarthcoinCash adresiyle eşleşmiyor.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
@@ -495,8 +495,8 @@
         <translation>Hoş geldiniz</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash
 </translation>
     </message>
     <message>
@@ -628,7 +628,7 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Earthcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EarthcoinCash network after a connection is established, but this process has not completed yet.</source>
         <translation>Gösterilen bilgi geçerli olmayabilir. Bağlantı tekrar sağlandıktan sonra cüzdanınız otomatik olarak senkronize olacaktır. Henüz senkronize olma işlemi tamamlanmadı.</translation>
     </message>
     <message>
@@ -709,8 +709,8 @@
 <context>
     <name>QObject</name>
     <message>
-        <source>Enter a Earthcoin address (e.g. %1)</source>
-        <translation>Earthcoin adresinizi girin (örneğin %1)</translation>
+        <source>Enter a EarthcoinCash address (e.g. %1)</source>
+        <translation>EarthcoinCash adresinizi girin (örneğin %1)</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -1094,8 +1094,8 @@
         <translation>Coin gönderimini onaylayın</translation>
     </message>
     <message>
-        <source>Warning: Invalid Earthcoin address</source>
-        <translation>Uyarı: Hatalı Earthcoin adresi</translation>
+        <source>Warning: Invalid EarthcoinCash address</source>
+        <translation>Uyarı: Hatalı EarthcoinCash adresi</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1387,8 +1387,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Earthcoin Core</source>
-        <translation>Earthcoin Çekirdeği</translation>
+        <source>EarthcoinCash Core</source>
+        <translation>EarthcoinCash Çekirdeği</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>

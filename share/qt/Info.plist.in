@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Earthcoin-Qt</string>
+  <string>EarthcoinCash-Qt</string>
   
   <key>CFBundleName</key>
-  <string>Earthcoin-Qt</string>
+  <string>EarthcoinCash-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.earthcoin.Earthcoin-Qt</string>
+  <string>org.earthcoincash.EarthcoinCash-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.earthcoin.EarthcoinPayment</string>
+      <string>org.earthcoincash.EarthcoinCashPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>earthcoin</string>
+        <string>earthcoincash</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.earthcoin.paymentrequest</string>
+      <string>org.earthcoincash.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Earthcoin payment request</string>
+      <string>EarthcoinCash payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-earthcoin-payment-request</string>
+        <string>application/x-earthcoincash-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>earthcoinpaymentrequest</string>
+          <string>earthcoincashpaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.earthcoin.paymentrequest</string>
+        <string>org.earthcoincash.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

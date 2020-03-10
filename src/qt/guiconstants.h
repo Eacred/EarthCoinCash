@@ -46,9 +46,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Earthcoin"
-#define QAPP_ORG_DOMAIN "earthcoin.org"
-#define QAPP_APP_NAME_DEFAULT "Earthcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "Earthcoin-Qt-testnet"
+#define QAPP_ORG_NAME "EarthcoinCash"
+#define QAPP_ORG_DOMAIN "earthcoincash.org"
+#define QAPP_APP_NAME_DEFAULT "EarthcoinCash-Qt"
+#define QAPP_APP_NAME_TESTNET "EarthcoinCash-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

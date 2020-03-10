@@ -1,6 +1,6 @@
 ### TestGen ###
 
-Utilities to generate test vectors for the data-driven Earthcoin tests.
+Utilities to generate test vectors for the data-driven EarthcoinCash tests.
 
 Usage: 
 

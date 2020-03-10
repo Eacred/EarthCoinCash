@@ -15,7 +15,7 @@ OpenURIDialog::OpenURIDialog(QWidget *parent) :
     ui(new Ui::OpenURIDialog)
 {
     ui->setupUi(this);
-    ui->uriEdit->setPlaceholderText("earthcoin:");
+    ui->uriEdit->setPlaceholderText("earthcoincash:");
 }
 
 OpenURIDialog::~OpenURIDialog()
@@ -46,5 +46,5 @@ void OpenURIDialog::on_selectFileButton_clicked()
     if(filename.isEmpty())
         return;
     QUrl fileUri = QUrl::fromLocalFile(filename);
-    ui->uriEdit->setText("earthcoin:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
+    ui->uriEdit->setText("earthcoincash:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
 }

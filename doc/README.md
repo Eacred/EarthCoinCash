@@ -1,41 +1,41 @@
-Earthcoin Core
+EarthcoinCash Core
 =============
 
 Setup
 ---------------------
-Earthcoin Core is the original Earthcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Earthcoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+EarthcoinCash Core is the original EarthcoinCash client and it builds the backbone of the network. It downloads and, by default, stores the entire history of EarthcoinCash transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Earthcoin Core, visit [earthcoin.org](https://earthcoin.org).
+To download EarthcoinCash Core, visit [earthcoincash.org](https://earthcoincash.org).
 
 Running
 ---------------------
-The following are some helpful notes on how to run Earthcoin Core on your native platform.
+The following are some helpful notes on how to run EarthcoinCash Core on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/earthcoin-qt` (GUI) or
-- `bin/earthcoind` (headless)
+- `bin/earthcoincash-qt` (GUI) or
+- `bin/earthcoincashd` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run earthcoin-qt.exe.
+Unpack the files into a directory, and then run earthcoincash-qt.exe.
 
 ### macOS
 
-Drag Earthcoin Core to your applications folder, and then run Earthcoin Core.
+Drag EarthcoinCash Core to your applications folder, and then run EarthcoinCash Core.
 
 ### Need Help?
 
-* See the documentation at the [Earthcoin Wiki](https://earthcoin.info/)
+* See the documentation at the [EarthcoinCash Wiki](https://earthcoincash.info/)
 for help and more information.
-* Ask for help on [#earthcoin](http://webchat.freenode.net?channels=earthcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=earthcoin).
-* Ask for help on the [EarthcoinTalk](https://earthcointalk.io/) forums.
+* Ask for help on [#earthcoincash](http://webchat.freenode.net?channels=earthcoincash) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=earthcoincash).
+* Ask for help on the [EarthcoinCashTalk](https://earthcoincashtalk.io/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Earthcoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build EarthcoinCash Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -47,7 +47,7 @@ The following are developer notes on how to build Earthcoin Core on your native 
 
 Development
 ---------------------
-The Earthcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The EarthcoinCash repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Release Notes](release-notes.md)
@@ -62,8 +62,8 @@ The Earthcoin repo's [root README](/README.md) contains relevant information on 
 - [Benchmarking](benchmarking.md)
 
 ### Resources
-* Discuss on the [EarthcoinTalk](https://earthcointalk.io/) forums.
-* Discuss general Earthcoin development on #earthcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=earthcoin-dev).
+* Discuss on the [EarthcoinCashTalk](https://earthcoincashtalk.io/) forums.
+* Discuss general EarthcoinCash development on #earthcoincash-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=earthcoincash-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

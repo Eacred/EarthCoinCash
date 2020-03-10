@@ -1,5 +1,5 @@
-Building Earthcoin
+Building EarthcoinCash
 ================
 
 See doc/build-*.md for instructions on building the various
-elements of the Earthcoin Core reference implementation of Earthcoin.
+elements of the EarthcoinCash Core reference implementation of EarthcoinCash.

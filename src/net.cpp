@@ -1524,7 +1524,7 @@ static void ThreadMapPort()
             }
         }
 
-        std::string strDesc = "Earthcoin " + FormatFullVersion();
+        std::string strDesc = "EarthcoinCash " + FormatFullVersion();
 
         do {
 #ifndef UPNPDISCOVER_SUCCESS

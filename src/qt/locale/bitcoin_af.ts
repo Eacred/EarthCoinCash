@@ -62,12 +62,12 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u Earthcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your EarthcoinCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u EarthcoinCash betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u Earthcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your EarthcoinCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u EarthcoinCashs sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -334,8 +334,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Earthcoin address</source>
-        <translation>Stuur munte na 'n Earthcoin adres</translation>
+        <source>Send coins to a EarthcoinCash address</source>
+        <translation>Stuur munte na 'n EarthcoinCash adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Verifieer boodskap...</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin</translation>
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -386,12 +386,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Earthcoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Earthcoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your EarthcoinCash addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u EarthcoinCash adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Earthcoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Earthcoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified EarthcoinCash addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde EarthcoinCash adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -410,8 +410,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and earthcoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en earthcoin: URI's)</translation>
+        <source>Request payments (generates QR codes and earthcoincash: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en earthcoincash: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,8 +422,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a earthcoin: URI or payment request</source>
-        <translation>Skep 'n earthcoin: URI of betalingsversoek</translation>
+        <source>Open a earthcoincash: URI or payment request</source>
+        <translation>Skep 'n earthcoincash: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -516,8 +516,8 @@
         <translation>Inkomende transaksie</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Earthcoin can no longer continue safely and will quit.</source>
-        <translation>'N fatale fout het voorgekom. Earthcoin kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
+        <source>A fatal error occurred. EarthcoinCash can no longer continue safely and will quit.</source>
+        <translation>'N fatale fout het voorgekom. EarthcoinCash kan nie meer veilig voortgaan nie en sal nou toemaak.</translation>
     </message>
 </context>
 <context>
@@ -706,8 +706,8 @@
         <translation>Wysig stuur adres</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Earthcoin address.</source>
-        <translation>Die ingevoerde adres "%1" is nie 'n geldige Earthcoin adres nie.</translation>
+        <source>The entered address "%1" is not a valid EarthcoinCash address.</source>
+        <translation>Die ingevoerde adres "%1" is nie 'n geldige EarthcoinCash adres nie.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -779,8 +779,8 @@
         <translation>Gebruik 'n persoonlike data gids:</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin</translation>
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -1144,8 +1144,8 @@
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Enter a Earthcoin address (e.g. %1)</source>
-        <translation>Voer in 'n Earthcoin adres (bv. %1)</translation>
+        <source>Enter a EarthcoinCash address (e.g. %1)</source>
+        <translation>Voer in 'n EarthcoinCash adres (bv. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1878,8 +1878,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Earthcoin Core</source>
-        <translation>Earthcoin Kern</translation>
+        <source>EarthcoinCash Core</source>
+        <translation>EarthcoinCash Kern</translation>
     </message>
     <message>
         <source>Error loading %s</source>

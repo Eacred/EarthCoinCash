@@ -66,12 +66,12 @@
         <translation>Mottagaradresser</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Detta är dina Earthcoin-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar earthcoin.</translation>
+        <source>These are your EarthcoinCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Detta är dina EarthcoinCash-adresser för att skicka betalningar. Kontrollera alltid summan och den mottagande adressen innan du skickar earthcoincash.</translation>
     </message>
     <message>
-        <source>These are your Earthcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Detta är dina Earthcoin-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
+        <source>These are your EarthcoinCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Detta är dina EarthcoinCash-adresser för att ta emot betalningar. Det rekommenderas att använda en ny mottagningsadress för varje transaktion.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -189,7 +189,7 @@ Var vänlig och försök igen.</translation>
         <translation>Plånbok krypterad</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your earthcoincashs from being stolen by malware infecting your computer.</source>
         <translation>%1 kommer nu att stänga ner för att slutföra krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -347,8 +347,8 @@ Var vänlig och försök igen.</translation>
         <translation>Återindexerar block på disken...</translation>
     </message>
     <message>
-        <source>Send coins to a Earthcoin address</source>
-        <translation>Skicka earthcoin till en Earthcoin-adress</translation>
+        <source>Send coins to a EarthcoinCash address</source>
+        <translation>Skicka earthcoincash till en EarthcoinCash-adress</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -371,8 +371,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Verifiera meddelande...</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin</translation>
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -399,12 +399,12 @@ Var vänlig och försök igen.</translation>
         <translation>Kryptera de privata nycklar som tillhör din plånbok</translation>
     </message>
     <message>
-        <source>Sign messages with your Earthcoin addresses to prove you own them</source>
-        <translation>Signera meddelanden med dina Earthcoin-adresser för att bevisa att du äger dem</translation>
+        <source>Sign messages with your EarthcoinCash addresses to prove you own them</source>
+        <translation>Signera meddelanden med dina EarthcoinCash-adresser för att bevisa att du äger dem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Earthcoin addresses</source>
-        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna Earthcoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified EarthcoinCash addresses</source>
+        <translation>Verifiera meddelanden för att vara säker på att de signerades med angivna EarthcoinCash-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -423,8 +423,8 @@ Var vänlig och försök igen.</translation>
         <translation>Verktygsfält för tabbar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and earthcoin: URIs)</source>
-        <translation>Begär betalningar (skapar QR-koder och earthcoin: -URIer)</translation>
+        <source>Request payments (generates QR codes and earthcoincash: URIs)</source>
+        <translation>Begär betalningar (skapar QR-koder och earthcoincash: -URIer)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -435,16 +435,16 @@ Var vänlig och försök igen.</translation>
         <translation>Visa listan med använda mottagningsadresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a earthcoin: URI or payment request</source>
-        <translation>Öppna en earthcoin: URI eller betalningsbegäran</translation>
+        <source>Open a earthcoincash: URI or payment request</source>
+        <translation>Öppna en earthcoincash: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Earthcoin network</source>
-        <translation><numerusform>%n aktiva anslutningar till Earthcoin-nätverket.</numerusform><numerusform>%n aktiva anslutningar till Earthcoin-nätverket.</numerusform></translation>
+        <source>%n active connection(s) to EarthcoinCash network</source>
+        <translation><numerusform>%n aktiva anslutningar till EarthcoinCash-nätverket.</numerusform><numerusform>%n aktiva anslutningar till EarthcoinCash-nätverket.</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -487,8 +487,8 @@ Var vänlig och försök igen.</translation>
         <translation>Uppdaterad</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Earthcoin command-line options</source>
-        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga Earthcoin kommandoradsalternativ.</translation>
+        <source>Show the %1 help message to get a list with possible EarthcoinCash command-line options</source>
+        <translation>Visa %1 hjälpmeddelande för att få en lista med möjliga EarthcoinCash kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -557,8 +557,8 @@ Var vänlig och försök igen.</translation>
         <translation>Denna plånbok är &lt;b&gt;krypterad&lt;/b&gt; och för närvarande &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Earthcoin can no longer continue safely and will quit.</source>
-        <translation>Ett kritiskt fel uppstod. Earthcoin kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
+        <source>A fatal error occurred. EarthcoinCash can no longer continue safely and will quit.</source>
+        <translation>Ett kritiskt fel uppstod. EarthcoinCash kan inte fortsätta att köra säkert och kommer att avslutas.</translation>
     </message>
 </context>
 <context>
@@ -747,8 +747,8 @@ Var vänlig och försök igen.</translation>
         <translation>Redigera avsändaradress</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Earthcoin address.</source>
-        <translation>Den angivna adressen "%1" är inte en giltig Earthcoin-adress.</translation>
+        <source>The entered address "%1" is not a valid EarthcoinCash address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig EarthcoinCash-adress.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -832,8 +832,8 @@ Var vänlig och försök igen.</translation>
         <translation>Använd en anpassad datakatalog:</translation>
     </message>
     <message>
-        <source>Earthcoin</source>
-        <translation>Earthcoin</translation>
+        <source>EarthcoinCash</source>
+        <translation>EarthcoinCash</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
@@ -844,8 +844,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ungefär %1 GB data kommer att lagras i den här katalogen.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Earthcoin block chain.</source>
-        <translation>%1 kommer att ladda ner och lagra en kopia av Earthcoin-blockkedjan.</translation>
+        <source>%1 will download and store a copy of the EarthcoinCash block chain.</source>
+        <translation>%1 kommer att ladda ner och lagra en kopia av EarthcoinCash-blockkedjan.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
@@ -875,12 +875,12 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the earthcoin network, as detailed below.</source>
-        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med Earthcoin-nätverket enligt detaljer nedan.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the earthcoincash network, as detailed below.</source>
+        <translation>Nyligen gjorda transaktioner visas inte korrekt och därför kan din plånboks saldo visas felaktigt. Denna information kommer att visas korrekt så snart din plånbok har synkroniserat klart med EarthcoinCash-nätverket enligt detaljer nedan.</translation>
     </message>
     <message>
-        <source>Attempting to spend earthcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Att försöka spendera earthcoin som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
+        <source>Attempting to spend earthcoincashs that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Att försöka spendera earthcoincash som påverkas av transaktioner som ännu inte visas kommer inte accepteras av nätverket. </translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1049,8 +1049,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Spendera obekräftad växel</translation>
     </message>
     <message>
-        <source>Automatically open the Earthcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Öppna automatiskt Earthcoin-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
+        <source>Automatically open the EarthcoinCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Öppna automatiskt EarthcoinCash-klientens port på routern. Detta fungerar endast om din router stödjer UPnP och det är är aktiverat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1065,8 +1065,8 @@ Var vänlig och försök igen.</translation>
         <translation>Tillåt ankommande anslutningar</translation>
     </message>
     <message>
-        <source>Connect to the Earthcoin network through a SOCKS5 proxy.</source>
-        <translation>Anslut till Earthcoin-nätverket genom en SOCKS5-proxy.</translation>
+        <source>Connect to the EarthcoinCash network through a SOCKS5 proxy.</source>
+        <translation>Anslut till EarthcoinCash-nätverket genom en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1101,8 +1101,8 @@ Var vänlig och försök igen.</translation>
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Earthcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Anslut till Earthcoin-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
+        <source>Connect to the EarthcoinCash network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Anslut till EarthcoinCash-nätverket genom en separat SOCKS5-proxy för dolda tjänster i Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1208,8 +1208,8 @@ Var vänlig och försök igen.</translation>
         <translation>Formulär</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Earthcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med Earthcoin-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the EarthcoinCash network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den visade informationen kan vara inaktuell. Plånboken synkroniseras automatiskt med EarthcoinCash-nätverket efter att anslutningen är upprättad, men denna process har inte slutförts ännu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1283,8 +1283,8 @@ Var vänlig och försök igen.</translation>
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start earthcoin: click-to-pay handler</source>
-        <translation>Kan inte starta earthcoin: klicka-och-betala hanteraren</translation>
+        <source>Cannot start earthcoincash: click-to-pay handler</source>
+        <translation>Kan inte starta earthcoincash: klicka-och-betala hanteraren</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1299,8 +1299,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ogiltig betalningsadress %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Earthcoin address or malformed URI parameters.</source>
-        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig Earthcoin-adress eller felaktiga URI-parametrar.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid EarthcoinCash address or malformed URI parameters.</source>
+        <translation>URI kan inte parsas! Detta kan orsakas av en ogiltig EarthcoinCash-adress eller felaktiga URI-parametrar.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1401,8 +1401,8 @@ Var vänlig och försök igen.</translation>
         <translation>Mängd</translation>
     </message>
     <message>
-        <source>Enter a Earthcoin address (e.g. %1)</source>
-        <translation>Ange en Earthcoin-adress (t.ex. %1)</translation>
+        <source>Enter a EarthcoinCash address (e.g. %1)</source>
+        <translation>Ange en EarthcoinCash-adress (t.ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1821,8 +1821,8 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Meddelande:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Earthcoin network.</source>
-        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över Earthcoin-nätverket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the EarthcoinCash network.</source>
+        <translation>Ett valfritt meddelande att bifoga betalningsbegäran, vilket visas när begäran öppnas. Obs: Meddelandet kommer inte att sändas med betalningen över EarthcoinCash-nätverket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2058,8 +2058,8 @@ Var vänlig och försök igen.</translation>
         <translation>Göm</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for earthcoin transactions than the network can process.</source>
-        <translation>Att bara betala den minsta avgiften är helt ok så länge transaktionsvolymen är mindre än ledigt utrymme i blocken. Men tänk på att det kan bli en en transaktion som aldrig bekräftas om efterfrågan på earthcoin-transaktioner är större än vad nätverket kan hantera.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for earthcoincash transactions than the network can process.</source>
+        <translation>Att bara betala den minsta avgiften är helt ok så länge transaktionsvolymen är mindre än ledigt utrymme i blocken. Men tänk på att det kan bli en en transaktion som aldrig bekräftas om efterfrågan på earthcoincash-transaktioner är större än vad nätverket kan hantera.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2226,8 +2226,8 @@ Var vänlig och försök igen.</translation>
         <translation><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform><numerusform>Uppskattas till att påbörja bekräftelse inom %n block.</numerusform></translation>
     </message>
     <message>
-        <source>Warning: Invalid Earthcoin address</source>
-        <translation>Varning: Ogiltig Earthcoin-adress</translation>
+        <source>Warning: Invalid EarthcoinCash address</source>
+        <translation>Varning: Ogiltig EarthcoinCash-adress</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2269,8 +2269,8 @@ Var vänlig och försök igen.</translation>
         <translation>Detta är en normal betalning.</translation>
     </message>
     <message>
-        <source>The Earthcoin address to send the payment to</source>
-        <translation>Earthcoin-adress att sända betalning till</translation>
+        <source>The EarthcoinCash address to send the payment to</source>
+        <translation>EarthcoinCash-adress att sända betalning till</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2289,8 +2289,8 @@ Var vänlig och försök igen.</translation>
         <translation>Radera denna post</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less earthcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre earthcoin än du angivit i beloppsfältet. Om flera mottagare valts kommer avgiften att fördelas jämt.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less earthcoincashs than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Avgiften dras från beloppet som skickas. Mottagaren kommer att ta emot mindre earthcoincash än du angivit i beloppsfältet. Om flera mottagare valts kommer avgiften att fördelas jämt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2317,8 +2317,8 @@ Var vänlig och försök igen.</translation>
         <translation>Ange en etikett för denna adress för att lägga till den i listan med använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the earthcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Earthcoin network.</source>
-        <translation>Ett meddelande som bifogades earthcoin: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över Earthcoin-nätverket.</translation>
+        <source>A message that was attached to the earthcoincash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the EarthcoinCash network.</source>
+        <translation>Ett meddelande som bifogades earthcoincash: -URIn och som lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över EarthcoinCash-nätverket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2362,12 +2362,12 @@ Var vänlig och försök igen.</translation>
         <translation>&amp;Signera Meddelande</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive earthcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot earthcoin som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive earthcoincashs sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan signera meddelanden/avtal med dina adresser för att bevisa att du kan ta emot earthcoincash som skickats till dem. Var försiktig så du inte signerar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att signera över din identitet till dem. Signera endast väldetaljerade meddelanden som du godkänner.</translation>
     </message>
     <message>
-        <source>The Earthcoin address to sign the message with</source>
-        <translation>Earthcoin-adress att signera meddelandet med</translation>
+        <source>The EarthcoinCash address to sign the message with</source>
+        <translation>EarthcoinCash-adress att signera meddelandet med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2398,8 +2398,8 @@ Var vänlig och försök igen.</translation>
         <translation>Kopiera signaturen till systemets Urklipp</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Earthcoin address</source>
-        <translation>Signera meddelandet för att bevisa att du äger denna Earthcoin-adress</translation>
+        <source>Sign the message to prove you own this EarthcoinCash address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna EarthcoinCash-adress</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2422,12 +2422,12 @@ Var vänlig och försök igen.</translation>
         <translation>Ange mottagarens adress, meddelande (kopiera radbrytningar, mellanslag, TAB-tecken, osv. exakt) och signatur nedan, för att verifiera meddelandet. Undvik att läsa in mera information i signaturen än vad som stod i själva det signerade meddelandet, för att undvika ett man-in-the-middle-angrepp. Notera att detta endast bevisar att den signerande parten tar emot med adressen, det bevisar inte vem som skickat transaktionen!</translation>
     </message>
     <message>
-        <source>The Earthcoin address the message was signed with</source>
-        <translation>Earthcoin-adress som meddelandet signerades med</translation>
+        <source>The EarthcoinCash address the message was signed with</source>
+        <translation>EarthcoinCash-adress som meddelandet signerades med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Earthcoin address</source>
-        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven Earthcoin-adress</translation>
+        <source>Verify the message to ensure it was signed with the specified EarthcoinCash address</source>
+        <translation>Verifiera meddelandet för att vara säker på att det signerades med angiven EarthcoinCash-adress</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2962,7 +2962,7 @@ Var vänlig och försök igen.</translation>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Skicka Earthcoins</translation>
+        <translation>Skicka EarthcoinCashs</translation>
     </message>
     <message>
         <source>Increasing transaction fee failed</source>
@@ -3063,8 +3063,8 @@ Var vänlig och försök igen.</translation>
         <translation>Kunde inte starta HTTP-server. Se avlusningsloggen för detaljer.</translation>
     </message>
     <message>
-        <source>Earthcoin Core</source>
-        <translation>Earthcoin Core</translation>
+        <source>EarthcoinCash Core</source>
+        <translation>EarthcoinCash Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -3472,7 +3472,7 @@ Var vänlig och försök igen.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med earthcoins</translation>
+        <translation>Otillräckligt med earthcoincashs</translation>
     </message>
     <message>
         <source>Loading block index...</source>

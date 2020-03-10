@@ -98,9 +98,9 @@ static int AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || HelpRequested(gArgs)) {
         // First part of help message is specific to this utility
-        std::string strUsage = PACKAGE_NAME " earthcoin-tx utility version " + FormatFullVersion() + "\n\n" +
-            "Usage:  earthcoin-tx [options] <hex-tx> [commands]  Update hex-encoded earthcoin transaction\n" +
-            "or:     earthcoin-tx [options] -create [commands]   Create hex-encoded earthcoin transaction\n" +
+        std::string strUsage = PACKAGE_NAME " earthcoincash-tx utility version " + FormatFullVersion() + "\n\n" +
+            "Usage:  earthcoincash-tx [options] <hex-tx> [commands]  Update hex-encoded earthcoincash transaction\n" +
+            "or:     earthcoincash-tx [options] -create [commands]   Create hex-encoded earthcoincash transaction\n" +
             "\n";
         strUsage += gArgs.GetHelpMessage();
 
